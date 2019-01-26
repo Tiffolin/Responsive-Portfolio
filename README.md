@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Basic-Portfolio assignment
+# Responsive portfolio assignment
+Responsive portfolio
