@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-assignment02: Responsive-Portfolio
+# Basic-Portfolio
+Basic-Portfolio assignment

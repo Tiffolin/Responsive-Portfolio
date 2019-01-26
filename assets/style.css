@@ -1,0 +1,430 @@
+/* Respsive Assignment  */
+
+
+* {
+
+  text-align: center;
+}
+
+
+header {
+    position: fixed;
+    z-index:10;
+    top:0;
+    height: 110px;
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid grey;
+}
+
+#topheader {
+  position:fixed;
+  left: 15%;
+  top: 6%;
+  padding: 20px;
+  font-family: 'Serif';
+  background-color:#4aaaa5;
+  font-size: 30px;
+  color: white;
+}
+
+.tags {
+    position: fixed;
+    top: 6%;
+    padding: 20px;
+    font-family:"San-serif";
+    color: #777777;
+}
+
+#About {
+    position:fixed;
+    right: 25%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;  
+}
+
+#Portfolio {
+    position:fixed;
+    right: 15%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;
+}
+
+#Contact {
+    position:fixed;
+    right: 5%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/morocco.png)
+}
+
+div.maincontent {
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    min-height: 100px;
+    overflow: hidden;
+    width: 960px;
+    background:white;
+    border:1px solid gray;
+    padding-bottom: 20px;
+}
+
+h1 {
+    float:left;
+    margin-left: 8px;
+    width: 96%;
+    border-bottom: 1px solid grey;
+    font-family: serif;
+    text-align: left;
+    color: #4aaaa5;
+}
+    
+footer {
+    clear: both;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width:100%;
+    margin-top:20px;
+    background-color: #666666;
+    border-top: 8px solid  #4aaaa5;
+    text-align: center bottom;
+    color:white;
+}
+
+/*index.html layout*/
+
+img {
+     float:left;
+     margin-left:6px;
+     margin-right:20px;
+     border:1px solid grey;   
+}
+
+#intro {
+     margin-left:10px;
+     font-family: sans-serif;
+     padding:20px;
+     text-align: left;
+    
+}
+
+
+
+/*Portfolio.html layout*/
+/*Container holding the image and the text*/
+
+.container{
+    position:relative;
+    float:left;
+    margin-left:10px;
+    margin-top: 10px;
+   
+    padding:0px;
+    width:220px;
+    height:220px;
+}
+
+/*text over pictures*/
+.text-block{
+    position: absolute;
+    margin:7px;
+    bottom: 20px;
+    width: 220px;
+    padding:0px;
+    font-family: sans-serif;
+    color: white;
+    background-color:  #4aaaa5;   
+}
+
+
+
+/*Contact.html style*/
+.contact-container {
+
+    font-family: sans-serif;
+    text-align: left;
+    color: grey;
+    width: 60vw;
+}
+
+#contactinput{
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+/*Media Queries-Responsiveness for 980px,768px and 640px*/
+/* for full screens*/
+
+@media only screen and (max-width: 980px) {
+
+header{
+    top:0;
+    left:0%;
+    right:0%;
+    height: 70px;
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid grey;
+}
+
+#topheader {
+  position:fixed;
+  left:2%;
+  top: 15px;
+  padding: 10px;
+  font-family: 'Serif';
+  background-color:#4aaaa5;
+  font-size: 30px;
+  color: white;
+}
+
+.tags {
+    position:fixed;
+    right:2%;
+    top: 5px;
+    padding: 10px;
+    font-family:"San-Serif";
+    color: #777777;
+}
+
+
+div.maincontent {
+    float:left;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-bottom: 20%;
+    min-height: 100px;
+    overflow: hidden;
+    padding:auto;
+    background:white;
+    border:1px solid gray;
+    width: 60vw;
+    overflow:auto;     
+}
+
+img.maincontent {
+    float:left;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding:auto;
+    background:white;
+    border:1px solid gray;
+    width: 60vw;   
+}
+
+
+/* for tablets*/
+
+@media only screen and (max-width: 768px) {
+
+    header{
+        top:0;
+        left:0%;
+        right:0%;
+        height: 50px;
+        width:100%;
+        background-color:#ffffff;
+        border-bottom: 1px solid grey;
+    }
+    
+    #topheader {
+      position:fixed;
+      left:2%;
+      top:0%;
+      padding: 10px;
+      font-family: 'Serif';
+      background-color:#4aaaa5;
+      font-size: 20px;
+      color: white;
+    }
+    
+    .tags {
+        position:fixed;
+        right:2%;
+        top: 0px;
+        padding:0px;
+        margin:0px;
+        border:0px;
+        font-family:"San-Serif";
+        color: #777777;
+    }
+    
+    
+    div.maincontent {
+        float:left;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 20%;
+        min-height: 100px;
+        overflow: hidden;
+        padding:auto;
+        background:white;
+        border:1px solid gray;
+        width: 90vw;
+        overflow:auto;     
+    }
+    
+    img.maincontent {
+        float:left;
+        margin-left: auto;
+        margin-bottom: auto;
+        padding:auto;
+        background:white;
+        border:1px solid gray;
+        width: 60vw;   
+    }
+
+    #intro {
+        font-size:15px;
+    }
+
+
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+
+
+/* for phone*/
+
+@media only screen and (max-width: 640px) {
+*{
+    overflow:auto;
+}
+    header{
+        top:0;
+        left:0%;
+        right:0%;
+        height: 70px;
+        width:100%;
+        background-color:#ffffff;
+        border-bottom: 1px solid grey;
+    }
+    
+    #topheader {
+      position:fixed;
+      left:0px;
+      padding: 10px;
+      font-family: 'Serif';
+      background-color:#4aaaa5;
+      width:100vw;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+    }
+
+    .tags {
+        float:left;
+        top: 10px;
+        width:100vw;
+        text-align: center;
+    }
+
+    #About {
+        -moz-tab-size: 16;
+        width: 33%;
+        font-size:15px;  
+    }
+    
+    #Portfolio {      
+        -moz-tab-size: 16;
+        width: 33%;
+        font-size:15px;  
+    }
+    
+    #Contact {     
+        -moz-tab-size: 16;
+        width: 33%;
+        font-size:15px;  
+    }
+
+
+    body {
+        margin-top: 10%;
+        margin-bottom: auto;
+        padding:auto;
+        background:white;
+        border:1px solid gray;
+        width: 90vw;
+      
+    }
+
+    div.maincontent {            
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        border:1px solid gray;
+        margin-bottom:20px;
+        
+    }
+
+    img.maincontent {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        border:1px solid gray;
+        margin-bottom: 20%;
+        min-height: 100px;
+        overflow: hidden;
+   
+    }
+
+    #intro{
+        margin-top:10px;
+        padding-bottom:60px;
+    }
+   
+    .container{
+        overflow:hidden;
+        clear:both;
+        left:30%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
